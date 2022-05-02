@@ -7,6 +7,9 @@
     button.onclick = () => {
       button.innerText = stuff[index];
       index++;
+      if (index === stuff.length) {
+        open("https://thcheetah777.github.io/frogWars/assets/stuff.mp3");
+      }
     }
   </script>
 </html>
