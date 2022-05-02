@@ -1,3 +1,12 @@
 <html>
-  <button>Click to Win</button>
+  <button id="button">Click to Win</button>
+  <script>
+    let button = document.getElementById("button");
+    const stuff = ["Why did you click it?", "Stop.", "STOP", "STOP!", "STOP!!!", "Why?", "This is my button,", "Stop clicking it,", " Or else", "Or else.", "Or else..", "Or else...", "You will have bad luck.", "...", "...", "...", "Do you want this button?", "If you want it,", "It's gonna cost you.", "It's going to be $199", "No, $1,000,000,000,000", "Fine, I warned you", "Just kidding I would never do anything to you.", "(hehehe)"];
+    let index = 0;
+    button.onclick = () => {
+      button.innerText = stuff[index];
+      index++;
+    }
+  </script>
 </html>
