@@ -1,2 +1,2 @@
-# theButton
+# The Button
 Click the button.
